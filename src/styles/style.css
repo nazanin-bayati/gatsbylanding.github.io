@@ -1,0 +1,782 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web';
+
+}
+
+h2 {
+    color: #303030;
+}
+
+
+.home-header-content {
+    background: linear-gradient(90deg, #03010a 0%, rgb(4, 9, 12) 2%, rgb(15, 31, 42) 50%, rgb(24, 48, 66) 100%);
+    height: 590px;
+}
+
+.landing-main-image {
+    margin-top: 90px;
+    width: 90%;
+
+}
+
+.header-text-landing {
+    margin-top: 170px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: var(--white);
+    font-size: 35px;
+}
+
+.paragraph-text-header-landing {
+    color: #c9a87e;
+    margin-top: 3px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.hire-button {
+    background-color: #e0a722;
+    color: #183042;
+    padding: 10px 70px;
+    text-decoration: none;
+    margin: 80px 15px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hire-button:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+}
+
+
+/* Trust Box */
+
+
+.trust-bar {
+    width: 100%;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.trust-text {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.57px;
+    text-transform: uppercase;
+    color: var(--original-primary-blue);
+    text-align: center;
+}
+
+
+.trust-logo-container {
+    align-items: center;
+    display: flex;
+    margin: 20px 0;
+}
+
+.trust-logo {
+    display: inline-flex;
+    min-width: 100px;
+    vertical-align: middle;
+    justify-content: center;
+    max-width: 120px;
+    flex: 1;
+    padding: 0 80px 0 24px;
+}
+
+.trust-bar-responsive {
+    display: none;
+}
+
+
+/* Slider Button For Next and Before*/
+
+#next-button {
+    background-image: src = "../img/Back-button.svg";
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-color: transparent;
+    min-width: 18px;
+    min-height: 90px;
+    float: right;
+    margin-top: 15%;
+    border: none;
+    cursor: pointer;
+
+}
+
+#back-button {
+    background-image:  src = "../img/Back-button.svg";
+    background-repeat: no-repeat;
+    min-width: 18px;
+    min-height: 90px;
+    float: left;
+    margin-top: 15%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+/* Project Box*/
+
+.project-content {
+    margin-bottom: 10%;
+}
+
+
+.lead-text-box-2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.box-line {
+    border-bottom: 3px solid #c9a87e;
+    width: 10%;
+    margin-left: 45%;
+    margin-bottom: 90px;
+
+}
+
+.project-box-contents {
+    padding: 20px 35px 70px 35px;
+}
+
+.project-container-box {
+    padding: 0;
+    margin: 0;
+}
+
+
+.project-box {
+    box-shadow: 0 0 6px rgba(57, 73, 76, 0.35);
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin: 0 5%;
+}
+
+
+.divider-line {
+    border-bottom: 2px solid #c9a87e;
+    width: 80%;
+    margin-left: 10%;
+
+
+}
+
+.project-title {
+    font-weight: 500;
+    color: #303030;
+    font-size: 22px;
+    padding: 30px;
+    margin: 0;
+}
+
+
+.project-duration {
+    display: inline;
+    color: var(--heavy-grey);
+
+}
+
+.project-duration:before {
+    content: 'Duration: ';
+}
+
+.project-budget {
+    display: table;
+    color: var(--heavy-grey);
+    margin: 0;
+}
+
+.project-budget:before {
+    content: 'Budget: '
+}
+
+.project-user-story {
+    display: inline;
+    color: var(--heavy-grey);
+    margin-left: 0;
+
+}
+
+.project-user-story:before {
+    content: 'User Story: ';
+}
+
+.project-skill {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 8%;
+}
+
+.skill-tag {
+    display: inline;
+    color: #ffffff;
+    background-color: #183042;
+    border-radius: 2px;
+    padding: 4px 8px;
+    margin-right: 3%;
+
+}
+
+
+.project-description {
+    color: var(--heavy-grey);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 12% 0;
+}
+
+.project-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* How it Works */
+
+.how-it-works {
+    background-color: #F8F8F8;
+
+}
+
+.how-it-works-icon {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    display: inline-grid;
+    margin-bottom: 15px;
+}
+
+.set, .scope, .sign, .project-done {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.how-it-works-icon img {
+    width: 140px;
+    margin: 7%;
+}
+
+.how-it-works-content {
+    font-weight: 600;
+    color: var(--original-primary-blue);
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.how-it-works-details {
+    font: 400;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+
+.call-to-action-content {
+    text-align: center;
+    color: #ffffff;
+    margin: 2% auto;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.call-to-action-button {
+    display: table;
+    margin: 50px auto;
+}
+
+.button-product-outsource {
+    margin: 40px 15px !important
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #c9a87e;
+    opacity: 0.5;
+}
+
+/* why are we diffrent */
+
+.diffrent-1 {
+    padding: 10px 0 10px 0;
+}
+
+#qa {
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+.different-mobile {
+    display: none;
+}
+
+/* Footer */
+
+
+#footer-content {
+    list-style: none;
+    color: #ffffff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.footer-details-header {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+
+.footer-details {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.footer-details:hover {
+    color: #c9a87e;
+}
+
+
+#Social-media-icons {
+    list-style: none;
+    display: inline-flex;
+    color: #ffffff;
+    padding: 0;
+    align-items: center;
+}
+
+.social-media-icons {
+    margin-right: 1%;
+    float: right;
+    display: inline-flex;
+    cursor: pointer;
+
+}
+
+.footer-social-media-items {
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+
+
+}
+
+.footer-social-media-items img {
+    width: 35px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.footer-social-media-items img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: translate(0, -2px);
+    transition: 0.4s;
+}
+
+
+.social-media, .licence {
+    color: #ffffff;
+}
+
+.footer-email {
+    float: right;
+    display: -webkit-box;
+    cursor: pointer;
+}
+
+.email {
+
+    color: #ffffff;
+}
+
+.email-icon {
+    width: 35px;
+    padding: 12px 8px;
+}
+
+.email-icon:hover {
+    opacity: 0.8;
+    transform: translate(0, -2px);
+    transition: 0.4s;
+}
+
+.licence {
+    text-align: center;
+    margin: 5% auto;
+}
+
+
+#footer {
+    background: var(--original-primary-blue);
+}
+
+/* Landing Size for small screens */
+@media (max-width: 999px) {
+
+    .landing-main-image {
+
+        margin-top: 100px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+    .landing-main-image {
+        margin-top: 120px;
+        width: 370px;
+    }
+
+    #next-button, #back-button {
+        display: none;
+    }
+
+    .trust-text {
+        text-align: left;
+    }
+
+    .trust-logo {
+        padding: 0 88px 0 6px;
+        max-width: 110px;
+    }
+
+
+    /* Project Box for Responsive */
+    .project-box {
+        margin-bottom: 3%;
+        margin-right: 0;
+    }
+
+    .project-box-contents {
+        padding: 0px 30px 10px 30px;
+    }
+
+    .project-skill {
+        margin-top: 3%;
+    }
+
+    .skill-tag {
+        display: inline;
+        border-radius: 2px;
+        padding: 4px 6px;
+        margin-right: 3%;
+
+    }
+
+
+    .project-description {
+        margin: 3% 0 6% 0;
+    }
+
+
+}
+
+/* Landing Size iPad and iPad Pro */
+
+@media (max-width: 768px) {
+
+
+    .home-header-content {
+        height: 490px;
+    }
+
+    .landing-main-image {
+        margin-left: 0px;
+        width: 103%;
+        margin-top: 12.5vw;
+    }
+
+    .header-text-landing {
+        margin-top: 180px;
+        font-size: 30px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .paragraph-text-header-landing {
+        margin-top: 3px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .hire-button {
+        padding: 5px 35px;
+        margin: 80px 15px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .trust-bar {
+        display: none;
+    }
+
+    .trust-bar-responsive {
+        display: block;
+    }
+
+    .trust-bar-responsive {
+        width: 100%;
+        background-color: #f8f8f8;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .trust-text-responsive {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1.57px;
+        text-transform: uppercase;
+        color: var(--original-primary-blue);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-responsive {
+        vertical-align: middle;
+
+    }
+
+    .trust-logo-container-responsive {
+        display: flex;
+    }
+
+    .trust-logo-responsive {
+        display: inline-flex;
+        min-width: 120px;
+        vertical-align: middle;
+        justify-content: center;
+        max-width: 120px;
+        flex: 1;
+        padding: 6%;
+    }
+
+    .lead-text-box-2 {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .project-box {
+        margin-left: 0;
+    }
+
+    .set, .scope, .sign, .project-done {
+
+        margin-bottom: 50px;
+    }
+
+}
+
+/* Landing Size for Mobile Phones */
+
+@media (max-width: 625px) {
+
+
+    .project-title {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .home-header-content {
+        height: 400px;
+    }
+
+    .landing-main-image {
+        margin-top: 70px;
+        width: 280px;
+    }
+
+    .header-text-landing {
+        margin-top: 125px;
+        margin-left: 0px;
+        color: var(--white);
+        font-size: 18px;
+    }
+
+    .paragraph-text-header-landing {
+        margin-top: 14px;
+        margin-left: 0;
+        font-size: 10px;
+    }
+
+    .hire-button {
+        padding: 8px 34px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    #footer-content {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-email {
+        float: left;
+    }
+
+    #social-media-icons {
+        padding-left: 38px;
+    }
+
+    .footer-email {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width: 540px) {
+    .project-box {
+        margin: 0 10px 10px 10px;
+    }
+
+    .box-line {
+        margin-bottom: 30px;
+    }
+
+    .landing-main-image {
+        width: 96%;
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+
+
+    #social-media-icons {
+        padding-left: 0px;
+    }
+
+    .diffrent-1 {
+        display: none;
+    }
+
+    .different-mobile {
+        display: block;
+        margin-bottom: 35px;
+    }
+
+
+    #footer {
+        text-align: center;
+
+    }
+
+    #footer-content {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .home-header-content {
+        height: 380px;
+    }
+
+    .header-text-landing {
+        margin-left: 0px;
+        font-size: 15px;
+        margin-top: 120px;
+    }
+
+
+    .paragraph-text-header-landing {
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .landing-main-image {
+        margin-top: 100px;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .trust-logo-responsive {
+        min-width: 86px;
+        max-width: 60px;
+        padding: 6%;
+        vertical-align: middle;
+
+    }
+
+    .project-box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .project-box-contents {
+        padding: 10px 30px 10px 30px;
+        font-size: 12px;
+    }
+
+    .skill-tag {
+        font-size: 12px;
+    }
+
+    .project-description {
+        font-size: 10px;
+    }
+
+    .hire-button {
+        padding: 4px 24px;
+        font-size: 12px;
+    }
+
+
+    .project-container-box {
+        padding: 0 15px;
+    }
+
+    .how-it-works-icon {
+        width: 0px;
+        height: 0px;
+    }
+
+    .how-it-works-icon img {
+        width: 127px;
+        margin-left: -67px;
+    }
+
+    #qa-mobile {
+        margin-bottom: 50px;
+    }
+
+
+    .set, .scope, .sign, .project-done {
+
+        margin-bottom: 30px;
+    }
+
+}
