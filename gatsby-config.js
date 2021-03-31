@@ -22,5 +22,14 @@ module.exports = {
           sv: 6
           }
         },
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "GraphCMS",
+        fieldName: "gcms",
+        url: "https://api-eu-central-1.graphcms.com/v2/ckmxg89z4phuu01xrf8u826lr/master",
+      },
+    },
+
     ],
 }

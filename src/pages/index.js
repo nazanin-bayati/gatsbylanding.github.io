@@ -18,9 +18,23 @@ import differentQa from "../img/why-are-we-different-qa.svg"
 import differentMobileUserstory from "../img/different-mobile-user-story.svg"
 import differentMobilePm from "../img/different-mobile-pm.svg"
 import differentMobileQa from "../img/different-mobile-qa.svg"
+import {graphql, useStaticQuery, Link} from 'gatsby'
 
+
+const pageQuery = graphql`
+    {
+        gcms {
+            ongoingProjects {
+                projectName
+                startDay
+                endDate
+            }
+        }
+    }
+`
 
 const IndexPage = () => {
+    const {gcms: {ongoingProjects}} = useStaticQuery(pageQuery)
     return (
     <Layout>
         <div class="home-header-content">
@@ -108,6 +122,11 @@ const IndexPage = () => {
                         </div>
 
                         <div class="row">
+                        {ongoingProjects.map(({slug, ...ongoingProject})=>(
+        <Link key={slug} to= {'/ongoingProject/${slug}'}>
+            {ongoingProject.projectName}
+        </Link>
+            ))}
                             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
                                 <div class="project-box" >
                                     <h2 class="project-title">Monenco Insights</h2>
