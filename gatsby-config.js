@@ -1,4 +1,11 @@
 module.exports = {
+    siteMetadata:{
+        title:'Wish Work Landing',
+        author:"Wish Team",
+        email:"infoconfing@wishwork.org",
+        page_description:"wish work landing",
+        creation_time:2020
+    },
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
