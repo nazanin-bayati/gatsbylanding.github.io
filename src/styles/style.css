@@ -27,7 +27,7 @@ h2 {
     margin-top: 170px;
     margin-bottom: 0;
     margin-left: 15px;
-    color: var(--white);
+    color: #ffffff;
     font-size: 35px;
 }
 
@@ -71,7 +71,7 @@ h2 {
     font-weight: 500;
     letter-spacing: 1.57px;
     text-transform: uppercase;
-    color: var(--original-primary-blue);
+    color: #183042;
     text-align: center;
 }
 
@@ -186,7 +186,7 @@ h2 {
 
 .project-duration {
     display: inline;
-    color: var(--heavy-grey);
+    color: #4D4D4D;
 
 }
 
@@ -196,7 +196,7 @@ h2 {
 
 .project-budget {
     display: table;
-    color: var(--heavy-grey);
+    color: #303030;
     margin: 0;
 }
 
@@ -206,7 +206,7 @@ h2 {
 
 .project-user-story {
     display: inline;
-    color: var(--heavy-grey);
+    color: #303030;
     margin-left: 0;
 
 }
@@ -233,7 +233,7 @@ h2 {
 
 
 .project-description {
-    color: var(--heavy-grey);
+    color: #303030;
     font-weight: 400;
     font-size: 15px;
     margin: 12% 0;
@@ -274,7 +274,7 @@ h2 {
 
 .how-it-works-content {
     font-weight: 600;
-    color: var(--original-primary-blue);
+    color: #183042;
     font-size: 16px;
     margin-top: 4px;
 }
@@ -550,7 +550,7 @@ h2 {
         font-weight: 500;
         letter-spacing: 1.57px;
         text-transform: uppercase;
-        color: var(--original-primary-blue);
+        color: #183042;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -613,7 +613,7 @@ h2 {
     .header-text-landing {
         margin-top: 125px;
         margin-left: 0px;
-        color: var(--white);
+        color: #ffffff;
         font-size: 18px;
     }
 

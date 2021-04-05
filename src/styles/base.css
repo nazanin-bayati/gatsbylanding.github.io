@@ -47,9 +47,9 @@ ul{
 }
 
 #navbar .nav-link:hover {
-    border-color: var(--original-primary-gold);
+    border-color: #e0a722;
     padding-top: 14px;
-    color: var(--original-primary-gold);
+    color: #e0a722;
 
 }
 
@@ -73,7 +73,7 @@ ul{
 .hire-toptalent {
     padding: 8px 14px;
     background-color: #e0a722;
-    color: var(--original-primary-blue);
+    color: #183042;
     border: none;
     border-radius: 2px;
 }

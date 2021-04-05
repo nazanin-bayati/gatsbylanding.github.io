@@ -8,3 +8,11 @@ This site is going to be implemented by gatsby.
 3. "develop": "env-cmd -f .env.development gatsby develop" in package.json <br>
 4. `npm run develop` <br>
 5. http://localhost:8000/___graphql
+
+
+* others
+
+## Link Example
+[Old Wish Work Landing](wishwork.org)
+
+
