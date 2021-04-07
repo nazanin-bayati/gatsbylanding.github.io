@@ -4,8 +4,8 @@ import Layout from '../components/layout'
 const FormPage = () => {
     return (
         <div>
-            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-                <p>
+            <form name="test" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <p> data-netlify=true
                     <label>Your Name: <input type="text" name="name"/></label>
                 </p>
                 <p>
