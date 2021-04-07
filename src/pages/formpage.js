@@ -4,12 +4,12 @@ import Layout from '../components/layout'
 const FormPage = () => {
     return (
         <div>
-            <form name="test" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-                <p> data-netlify=true
-                    <label>Your Name: <input type="text" name="name"/></label>
+            <form name="contacts" method="POST" data-netlify="true">
+                <p>
+                    <label>Your Name: <input type="text" name="name" /></label>
                 </p>
                 <p>
-                    <label>Your Email: <input type="email" name="email"/></label>
+                    <label>Your Email: <input type="email" name="email" /></label>
                 </p>
                 <p>
                     <label>Your Role: <select name="role[]" multiple>
