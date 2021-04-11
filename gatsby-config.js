@@ -37,6 +37,14 @@ module.exports = {
         url: "https://api-eu-central-1.graphcms.com/v2/ckmxg89z4phuu01xrf8u826lr/master",
       },
     },
-
+      {
+          resolve: `gatsby-source-faunadb`,
+          options: {
+              // The secret for the key you're using to connect to your Fauna database.
+              // You can generate on of these in the "Security" tab of your Fauna Console.
+              secret: "fnAEGgqcdAACB0i9HYBytQHQFNSguTXBBpH99l1C",
+              size: 100
+          },
+      },
     ],
 }
