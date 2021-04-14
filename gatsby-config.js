@@ -4,10 +4,12 @@ module.exports = {
         author:"Wish Team",
         email:"infoconfing@wishwork.org",
         page_description:"wish work landing",
-        creation_time:2020
+        creation_time:2020,
+        siteUrl: `https://www.oldwish.netlify.app/`
     },
   plugins: [
-    {
+      `gatsby-plugin-advanced-sitemap`,
+      {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -46,5 +48,18 @@ module.exports = {
               size: 100
           },
       },
+      {
+          resolve: `gatsby-plugin-advanced-sitemap`,
+          options: {
+              output: "/custom-sitemap.xml",
+          },
+          exclude: [
+              `/dev-404-page`,
+              `/404`,
+              `/404.html`,
+              `/offline-plugin-app-shell-fallback`,
+              `/admin`,
+          ],
+      }
     ],
 }
