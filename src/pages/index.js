@@ -261,6 +261,7 @@ const IndexPage = () => {
                         </div>
                     </div>
                 </div>
+                <script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/160639c0e7684d99be9af913cac91e4c47ac8eeabad34799a6f6c07673243632.js"></script>
             </div>
         </Layout>
     )
